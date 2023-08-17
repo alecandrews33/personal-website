@@ -1,0 +1,90 @@
+.title-color {
+    color: #35415D;
+}
+
+.secondary-color {
+    color: #678EB0;
+}
+
+.alternate-brown {
+    color: #D49B7E;
+}
+
+.headshot-img {
+    border-radius: 10%;
+}
+
+.project-app-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8;
+}
+
+.project-title {
+    flex-basis: 50px;
+    margin-top:20px;
+    color: #35415D;
+}
+
+.project-description {
+
+    text-align: justify;
+    width: 100%;
+    flex-basis: 120px;
+}
+
+.problemathic-img {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.center-column-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.neutral-background {
+    background-color: #F6F4EB;
+}
+
+.carousel-item {
+    height: 75%;
+}
+
+.resume-btn:hover {
+    background-color: #35415D;
+}
+
+.resume-btn:hover svg {
+    fill: white !important;
+}
+
+.app-store-btn {
+    background-color: #35415D;
+    color: white;
+}
+
+
+.carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.contact-txt {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color: #678EB0;
+}
+
+@media (min-width: 992px) {
+    .project-description {
+        text-align: justify;
+        width: 75%;
+        flex-basis: 120px;
+    }
+}
