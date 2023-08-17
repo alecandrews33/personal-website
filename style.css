@@ -78,7 +78,16 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
-    color: #678EB0;
+}
+
+.btn-contact {
+    background-color: #678EB0;
+    color: white;
+}
+
+.btn-contact:hover {
+    color: white;
+    background-color: #35415D;
 }
 
 @media (min-width: 992px) {
