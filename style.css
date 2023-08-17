@@ -90,6 +90,12 @@
     background-color: #35415D;
 }
 
+.icon-container {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
 @media (min-width: 992px) {
     .project-description {
         text-align: justify;
